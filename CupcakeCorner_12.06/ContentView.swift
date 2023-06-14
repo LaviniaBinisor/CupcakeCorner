@@ -34,6 +34,7 @@ struct ContentView: View {
             Text("Hello, world!")
                 .font(.title)
                 .foregroundColor(.green)
+            
         }
         .padding()
     }
