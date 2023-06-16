@@ -14,6 +14,7 @@
 		AA9932E92A3A19EF00556114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9932E42A3A19EF00556114 /* Preview Assets.xcassets */; };
 		AA9932EA2A3A19EF00556114 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9932E52A3A19EF00556114 /* CupcakeCornerApp.swift */; };
 		AAF5C64A2A3AF83800BD720D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C6492A3AF83800BD720D /* CheckoutView.swift */; };
+		AAF5C64C2A3C7DA600BD720D /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C64B2A3C7DA600BD720D /* String-EmptyChecking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AA9932E52A3A19EF00556114 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CupcakeCornerApp.swift; path = CupcakeCorner_12.06/CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		AAD411F92A36FEC100046CC4 /* CupcakeCorner_12.06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner_12.06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF5C6492A3AF83800BD720D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		AAF5C64B2A3C7DA600BD720D /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				AA9932DD2A3A060400556114 /* ContentView.swift */,
 				AAF5C6492A3AF83800BD720D /* CheckoutView.swift */,
 				AA9932DF2A3A17CE00556114 /* AddressView.swift */,
+				AAF5C64B2A3C7DA600BD720D /* String-EmptyChecking.swift */,
 				AA9932DB2A3A05E600556114 /* Order.swift */,
 				AA9932E22A3A19EF00556114 /* Assets.xcassets */,
 				AA9932E32A3A19EF00556114 /* Preview Content */,
@@ -143,6 +146,7 @@
 				AA9932DC2A3A05E600556114 /* Order.swift in Sources */,
 				AAF5C64A2A3AF83800BD720D /* CheckoutView.swift in Sources */,
 				AA9932E02A3A17CE00556114 /* AddressView.swift in Sources */,
+				AAF5C64C2A3C7DA600BD720D /* String-EmptyChecking.swift in Sources */,
 				AA9932DE2A3A060400556114 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
