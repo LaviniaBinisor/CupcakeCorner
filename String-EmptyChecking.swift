@@ -2,7 +2,7 @@
 //  String-EmptyChecking.swift
 //  CupcakeCorner_12.06
 //
-//  Created by ionut.binisor on 16.06.2023.
+//  Created by Binisor Lavinia on 16.06.2023.
 //
 
 import Foundation

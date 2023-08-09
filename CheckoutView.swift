@@ -2,7 +2,7 @@
 //  CheckoutView.swift
 //  CupcakeCorner_12.06
 //
-//  Created by ionut.binisor on 15.06.2023.
+//  Created by Nita Lavinia on 15.06.2023.
 //
 
 import SwiftUI
@@ -38,7 +38,6 @@ struct CheckoutView: View {
                 }
                 .padding()
             }
-            
         }
         .navigationTitle("Check out")
         .navigationBarTitleDisplayMode(.inline)
