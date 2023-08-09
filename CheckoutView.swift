@@ -36,22 +36,22 @@ struct CheckoutView: View {
                         await placeOrder()
                     }
                 }
-                    .padding()
+                .padding()
             }
         }
-            .navigationTitle("Check out")
-            .navigationBarTitleDisplayMode(.inline)
-            .alert("Thank you", isPresented: $showingConfirmation) {
-                Button("OK") {}
-            } message: {
-                Text(confirmationMessage)
-            }
-            .alert("Oops!", isPresented: $showingError) {
-                Button("OK") {}
-            } message: {
-                Text(errorMessage)
-            }
+        .navigationTitle("Check out")
+        .navigationBarTitleDisplayMode(.inline)
+        .alert("Thank you", isPresented: $showingConfirmation) {
+            Button("OK") {}
+        } message: {
+            Text(confirmationMessage)
         }
+        .alert("Oops!", isPresented: $showingError) {
+            Button("OK") {}
+        } message: {
+            Text(errorMessage)
+        }
+    }
     
     func placeOrder() async {
         guard let encoded = try? JSONEncoder().encode(order.data) else {
