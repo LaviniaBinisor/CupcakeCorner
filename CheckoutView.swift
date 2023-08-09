@@ -38,6 +38,7 @@ struct CheckoutView: View {
                 }
                 .padding()
             }
+            
         }
         .navigationTitle("Check out")
         .navigationBarTitleDisplayMode(.inline)
